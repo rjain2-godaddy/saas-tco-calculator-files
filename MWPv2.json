@@ -1,0 +1,136 @@
+{
+  "categories": [
+    {
+      "id": "compute",
+      "label": "Compute",
+      "icon": "Server",
+      "items": [
+        {
+          "id": "openstack-vm",
+          "name": "c16.r128.d256 (p3)",
+          "quantity": 4402,
+          "unitCost": 209.91,
+          "period": "annual",
+          "monthlyCost": 77001.985,
+          "notes": "50 VMs @ $150/month each"
+        },
+        {
+          "id": "aws-ec2",
+          "name": "c16.r128.d256 (sxb1)",
+          "quantity": 1170,
+          "unitCost": 163.59,
+          "period": "annual",
+          "monthlyCost": 15950.025000000001,
+          "notes": "EC2 instances for scalable workloads"
+        }
+      ]
+    },
+    {
+      "id": "database",
+      "label": "Database",
+      "icon": "Database",
+      "items": [
+        {
+          "id": "mysql-vm",
+          "name": "c8.r24.d250(p3)",
+          "quantity": 1752,
+          "unitCost": 63.66,
+          "period": "annual",
+          "monthlyCost": 9294.359999999999,
+          "notes": "MySQL/PostgreSQL instances"
+        },
+        {
+          "id": "item-103",
+          "name": "c8.r24.d250(sxb1)",
+          "quantity": 400,
+          "unitCost": 54.94,
+          "period": "annual",
+          "monthlyCost": 1831.3333333333333,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "label": "Storage",
+      "icon": "HardDrive",
+      "items": [
+        {
+          "id": "item-100",
+          "name": "ceph",
+          "quantity": 1,
+          "unitCost": 0,
+          "period": "monthly",
+          "monthlyCost": 0,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "network",
+      "label": "Network & CDN",
+      "icon": "Globe",
+      "items": [
+        {
+          "id": "item-101",
+          "name": "cloudflare",
+          "quantity": 1,
+          "unitCost": 0,
+          "period": "monthly",
+          "monthlyCost": 0,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "licensing",
+      "label": "Licensing",
+      "icon": "FileKey",
+      "items": [
+        {
+          "id": "item-102",
+          "name": "cloudlinux/zend",
+          "quantity": 1,
+          "unitCost": 0,
+          "period": "monthly",
+          "monthlyCost": 0,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "label": "Operations & Support",
+      "icon": "Wrench",
+      "items": [
+        {
+          "id": "staff",
+          "name": "Staff / FTE Cost",
+          "quantity": 1,
+          "unitCost": 0,
+          "period": "monthly",
+          "monthlyCost": 0,
+          "notes": "5 FTE DevOps/SRE engineers"
+        },
+        {
+          "id": "security",
+          "name": "Security Tools",
+          "quantity": 1,
+          "unitCost": 0,
+          "period": "monthly",
+          "monthlyCost": 0,
+          "notes": "Security scanning, SIEM, compliance tools"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other Costs",
+      "icon": "MoreHorizontal",
+      "items": []
+    }
+  ],
+  "appCount": 1000000,
+  "annualGrowthRate": 15,
+  "projectionYears": 5
+}
