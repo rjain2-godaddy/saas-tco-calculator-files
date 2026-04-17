@@ -63,6 +63,16 @@
           "period": "monthly",
           "monthlyCost": 0,
           "notes": ""
+        },
+        {
+          "id": "item-102",
+          "name": "Backup",
+          "quantity": 1,
+          "unitCost": 0,
+          "period": "monthly",
+          "monthlyCost": 0,
+          "notes": "",
+          "behavior": "fixed"
         }
       ]
     },
@@ -75,9 +85,9 @@
           "id": "item-101",
           "name": "cloudflare",
           "quantity": 1,
-          "unitCost": 0,
-          "period": "monthly",
-          "monthlyCost": 0,
+          "unitCost": 2158212,
+          "period": "annual",
+          "monthlyCost": 179851,
           "notes": ""
         }
       ]
@@ -120,6 +130,16 @@
           "period": "monthly",
           "monthlyCost": 0,
           "notes": "Security scanning, SIEM, compliance tools"
+        },
+        {
+          "id": "item-103",
+          "name": "Control Plane HR Opex",
+          "quantity": 1,
+          "unitCost": 540000,
+          "period": "annual",
+          "monthlyCost": 45000,
+          "notes": "",
+          "behavior": "fixed"
         }
       ]
     },
@@ -127,10 +147,31 @@
       "id": "other",
       "label": "Other Costs",
       "icon": "MoreHorizontal",
-      "items": []
+      "items": [
+        {
+          "id": "item-100",
+          "name": "LGTM c1",
+          "quantity": 1,
+          "unitCost": 8400,
+          "period": "monthly",
+          "monthlyCost": 8400,
+          "notes": "",
+          "behavior": "fixed"
+        },
+        {
+          "id": "item-101",
+          "name": "Elastic mgmt",
+          "quantity": 1,
+          "unitCost": 0,
+          "period": "monthly",
+          "monthlyCost": 0,
+          "notes": "",
+          "behavior": "fixed"
+        }
+      ]
     }
   ],
-  "appCount": 1000000,
+  "appCount": 900000,
   "annualGrowthRate": 15,
   "projectionYears": 5
 }
