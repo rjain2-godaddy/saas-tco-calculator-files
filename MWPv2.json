@@ -57,11 +57,11 @@
       "items": [
         {
           "id": "item-100",
-          "name": "ceph",
-          "quantity": 1,
-          "unitCost": 0,
-          "period": "monthly",
-          "monthlyCost": 0,
+          "name": "ceph(MWP Total Deployed Query)",
+          "quantity": 11178,
+          "unitCost": 69.02,
+          "period": "annual",
+          "monthlyCost": 64292.13,
           "notes": ""
         },
         {
@@ -105,6 +105,16 @@
           "period": "monthly",
           "monthlyCost": 0,
           "notes": ""
+        },
+        {
+          "id": "item-103",
+          "name": "object cache pro",
+          "quantity": 1,
+          "unitCost": 0,
+          "period": "monthly",
+          "monthlyCost": 0,
+          "notes": "",
+          "behavior": "fixed"
         }
       ]
     },
@@ -165,6 +175,16 @@
           "unitCost": 0,
           "period": "monthly",
           "monthlyCost": 0,
+          "notes": "",
+          "behavior": "fixed"
+        },
+        {
+          "id": "item-102",
+          "name": "Misc- Capital H/W Investment",
+          "quantity": 812,
+          "unitCost": 238,
+          "period": "monthly",
+          "monthlyCost": 193256,
           "notes": "",
           "behavior": "fixed"
         }
