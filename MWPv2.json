@@ -187,6 +187,16 @@
           "monthlyCost": 193256,
           "notes": "",
           "behavior": "fixed"
+        },
+        {
+          "id": "item-103",
+          "name": "AWS SSM",
+          "quantity": 1,
+          "unitCost": 0,
+          "period": "monthly",
+          "monthlyCost": 0,
+          "notes": "",
+          "behavior": "fixed"
         }
       ]
     }
