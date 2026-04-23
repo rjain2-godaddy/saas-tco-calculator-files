@@ -190,11 +190,11 @@
         },
         {
           "id": "item-103",
-          "name": "AWS SSM",
+          "name": "AWS SSM (c1)+c1 services",
           "quantity": 1,
-          "unitCost": 0,
+          "unitCost": 35000,
           "period": "monthly",
-          "monthlyCost": 0,
+          "monthlyCost": 35000,
           "notes": "",
           "behavior": "fixed"
         }
