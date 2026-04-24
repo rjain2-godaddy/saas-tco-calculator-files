@@ -163,8 +163,8 @@
           "name": "LGTM c1",
           "quantity": 1,
           "unitCost": 8400,
-          "period": "monthly",
-          "monthlyCost": 8400,
+          "period": "annual",
+          "monthlyCost": 700,
           "notes": "",
           "behavior": "fixed"
         },
