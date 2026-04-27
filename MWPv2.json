@@ -150,6 +150,16 @@
           "monthlyCost": 45000,
           "notes": "",
           "behavior": "fixed"
+        },
+        {
+          "id": "item-102",
+          "name": "Data Plane HR Opex",
+          "quantity": 1,
+          "unitCost": 700000,
+          "period": "annual",
+          "monthlyCost": 58333.333333333336,
+          "notes": "",
+          "behavior": "fixed"
         }
       ]
     },
@@ -172,9 +182,9 @@
           "id": "item-101",
           "name": "Elastic mgmt",
           "quantity": 1,
-          "unitCost": 0,
-          "period": "monthly",
-          "monthlyCost": 0,
+          "unitCost": 50000,
+          "period": "annual",
+          "monthlyCost": 4166.666666666667,
           "notes": "",
           "behavior": "fixed"
         },
@@ -195,6 +205,23 @@
           "unitCost": 35000,
           "period": "monthly",
           "monthlyCost": 35000,
+          "notes": "",
+          "behavior": "fixed"
+        }
+      ]
+    },
+    {
+      "id": "cat-100",
+      "label": "Control Plane",
+      "icon": "MoreHorizontal",
+      "items": [
+        {
+          "id": "item-101",
+          "name": "AWS Cost",
+          "quantity": 1,
+          "unitCost": 366096,
+          "period": "annual",
+          "monthlyCost": 30508,
           "notes": "",
           "behavior": "fixed"
         }
