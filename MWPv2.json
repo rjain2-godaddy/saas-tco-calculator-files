@@ -110,9 +110,9 @@
           "id": "item-103",
           "name": "object cache pro",
           "quantity": 1,
-          "unitCost": 0,
-          "period": "monthly",
-          "monthlyCost": 0,
+          "unitCost": 60000,
+          "period": "annual",
+          "monthlyCost": 5000,
           "notes": "",
           "behavior": "fixed"
         }
