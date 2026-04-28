@@ -68,9 +68,9 @@
           "id": "item-102",
           "name": "Daily Backup for mwp site ",
           "quantity": 1,
-          "unitCost": 500,
+          "unitCost": 864,
           "period": "daily",
-          "monthlyCost": 15000,
+          "monthlyCost": 25920,
           "notes": "",
           "behavior": "fixed"
         }
@@ -229,6 +229,6 @@
     }
   ],
   "appCount": 900000,
-  "annualGrowthRate": 15,
+  "annualGrowthRate": 5,
   "projectionYears": 5
 }
