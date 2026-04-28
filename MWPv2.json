@@ -66,11 +66,11 @@
         },
         {
           "id": "item-102",
-          "name": "Backup",
+          "name": "Daily Backup for mwp site ",
           "quantity": 1,
-          "unitCost": 0,
-          "period": "monthly",
-          "monthlyCost": 0,
+          "unitCost": 500,
+          "period": "daily",
+          "monthlyCost": 15000,
           "notes": "",
           "behavior": "fixed"
         }
@@ -217,7 +217,7 @@
       "items": [
         {
           "id": "item-101",
-          "name": "AWS Cost",
+          "name": "AWS Resource Cost",
           "quantity": 1,
           "unitCost": 366096,
           "period": "annual",
