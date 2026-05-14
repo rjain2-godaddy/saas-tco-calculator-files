@@ -7,30 +7,21 @@
       "items": [
         {
           "id": "openstack-vm",
-          "name": "Virtual Machines",
-          "quantity": 50,
-          "unitCost": 150,
-          "period": "monthly",
-          "monthlyCost": 7500,
+          "name": "c16.r128.d256 (p3)",
+          "quantity": 4402,
+          "unitCost": 209.91,
+          "period": "annual",
+          "monthlyCost": 77001.985,
           "notes": "50 VMs @ $150/month each"
         },
         {
           "id": "aws-ec2",
-          "name": "Cloud Compute (EC2/ECS)",
-          "quantity": 20,
-          "unitCost": 200,
-          "period": "monthly",
-          "monthlyCost": 4000,
+          "name": "c16.r128.d256 (sxb1)",
+          "quantity": 1170,
+          "unitCost": 163.59,
+          "period": "annual",
+          "monthlyCost": 15950.025000000001,
           "notes": "EC2 instances for scalable workloads"
-        },
-        {
-          "id": "kubernetes",
-          "name": "Container Orchestration",
-          "quantity": 3,
-          "unitCost": 800,
-          "period": "monthly",
-          "monthlyCost": 2400,
-          "notes": "K8s cluster nodes"
         }
       ]
     },
@@ -41,30 +32,21 @@
       "items": [
         {
           "id": "mysql-vm",
-          "name": "Database Instances",
-          "quantity": 10,
-          "unitCost": 300,
-          "period": "monthly",
-          "monthlyCost": 3000,
+          "name": "c8.r24.d250(p3)",
+          "quantity": 1752,
+          "unitCost": 63.66,
+          "period": "annual",
+          "monthlyCost": 9294.359999999999,
           "notes": "MySQL/PostgreSQL instances"
         },
         {
-          "id": "rds",
-          "name": "Managed Database",
-          "quantity": 5,
-          "unitCost": 450,
-          "period": "monthly",
-          "monthlyCost": 2250,
-          "notes": "AWS RDS for high availability"
-        },
-        {
-          "id": "redis",
-          "name": "Cache Layer",
-          "quantity": 8,
-          "unitCost": 100,
-          "period": "monthly",
-          "monthlyCost": 800,
-          "notes": "Redis for caching and session management"
+          "id": "item-103",
+          "name": "c8.r24.d250(sxb1)",
+          "quantity": 400,
+          "unitCost": 54.94,
+          "period": "annual",
+          "monthlyCost": 1831.3333333333333,
+          "notes": ""
         }
       ]
     },
@@ -74,31 +56,23 @@
       "icon": "HardDrive",
       "items": [
         {
-          "id": "ceph",
-          "name": "Block / Object Storage",
-          "quantity": 100,
-          "unitCost": 30,
-          "period": "monthly",
-          "monthlyCost": 3000,
-          "notes": "100 TB @ $30/TB/month"
+          "id": "item-100",
+          "name": "ceph(MWP Total Deployed Query)",
+          "quantity": 11178,
+          "unitCost": 69.02,
+          "period": "annual",
+          "monthlyCost": 64292.13,
+          "notes": ""
         },
         {
-          "id": "s3",
-          "name": "Cloud Storage (S3/GCS)",
-          "quantity": 50,
-          "unitCost": 25,
-          "period": "monthly",
-          "monthlyCost": 1250,
-          "notes": "50 TB S3 storage"
-        },
-        {
-          "id": "block-storage",
-          "name": "File Storage",
-          "quantity": 20,
-          "unitCost": 40,
-          "period": "monthly",
-          "monthlyCost": 800,
-          "notes": "20 TB SSD block storage"
+          "id": "item-102",
+          "name": "Daily Backup for mwp site ",
+          "quantity": 1,
+          "unitCost": 864,
+          "period": "daily",
+          "monthlyCost": 25920,
+          "notes": "",
+          "behavior": "fixed"
         }
       ]
     },
@@ -108,31 +82,13 @@
       "icon": "Globe",
       "items": [
         {
-          "id": "cloudflare",
-          "name": "Cloudflare",
+          "id": "item-101",
+          "name": "cloudflare",
           "quantity": 1,
-          "unitCost": 2400,
+          "unitCost": 2158212,
           "period": "annual",
-          "monthlyCost": 200,
-          "notes": "Enterprise CDN and DDoS protection"
-        },
-        {
-          "id": "load-balancer",
-          "name": "Load Balancer",
-          "quantity": 5,
-          "unitCost": 50,
-          "period": "monthly",
-          "monthlyCost": 250,
-          "notes": "Application load balancers"
-        },
-        {
-          "id": "bandwidth",
-          "name": "Bandwidth / Data Transfer",
-          "quantity": 100,
-          "unitCost": 12,
-          "period": "monthly",
-          "monthlyCost": 1200,
-          "notes": "100 TB data transfer @ $0.12/GB"
+          "monthlyCost": 179851,
+          "notes": ""
         }
       ]
     },
@@ -142,31 +98,23 @@
       "icon": "FileKey",
       "items": [
         {
-          "id": "os-license",
-          "name": "OS Licenses (RHEL, Windows)",
-          "quantity": 30,
-          "unitCost": 50,
+          "id": "item-102",
+          "name": "cloudlinux/zend",
+          "quantity": 1,
+          "unitCost": 0,
           "period": "monthly",
-          "monthlyCost": 1500,
-          "notes": "Enterprise OS subscriptions"
+          "monthlyCost": 0,
+          "notes": ""
         },
         {
-          "id": "software-license",
-          "name": "Software Licenses",
+          "id": "item-103",
+          "name": "object cache pro",
           "quantity": 1,
-          "unitCost": 12000,
+          "unitCost": 60000,
           "period": "annual",
-          "monthlyCost": 1000,
-          "notes": "Enterprise software licenses"
-        },
-        {
-          "id": "monitoring",
-          "name": "Monitoring Tools",
-          "quantity": 1,
-          "unitCost": 800,
-          "period": "monthly",
-          "monthlyCost": 800,
-          "notes": "Datadog, New Relic, or similar"
+          "monthlyCost": 5000,
+          "notes": "",
+          "behavior": "fixed"
         }
       ]
     },
@@ -178,29 +126,40 @@
         {
           "id": "staff",
           "name": "Staff / FTE Cost",
-          "quantity": 5,
-          "unitCost": 10000,
-          "period": "monthly",
-          "monthlyCost": 50000,
-          "notes": "5 FTE DevOps/SRE engineers"
-        },
-        {
-          "id": "backup",
-          "name": "Backup & DR",
           "quantity": 1,
-          "unitCost": 2000,
+          "unitCost": 0,
           "period": "monthly",
-          "monthlyCost": 2000,
-          "notes": "Backup and disaster recovery infrastructure"
+          "monthlyCost": 0,
+          "notes": "5 FTE DevOps/SRE engineers"
         },
         {
           "id": "security",
           "name": "Security Tools",
           "quantity": 1,
-          "unitCost": 1500,
+          "unitCost": 0,
           "period": "monthly",
-          "monthlyCost": 1500,
+          "monthlyCost": 0,
           "notes": "Security scanning, SIEM, compliance tools"
+        },
+        {
+          "id": "item-103",
+          "name": "Control Plane HR Opex",
+          "quantity": 1,
+          "unitCost": 540000,
+          "period": "annual",
+          "monthlyCost": 45000,
+          "notes": "",
+          "behavior": "fixed"
+        },
+        {
+          "id": "item-102",
+          "name": "Data Plane HR Opex",
+          "quantity": 1,
+          "unitCost": 700000,
+          "period": "annual",
+          "monthlyCost": 58333.333333333336,
+          "notes": "",
+          "behavior": "fixed"
         }
       ]
     },
@@ -210,18 +169,66 @@
       "icon": "MoreHorizontal",
       "items": [
         {
-          "id": "misc-1",
-          "name": "Miscellaneous",
+          "id": "item-100",
+          "name": "LGTM c1",
           "quantity": 1,
-          "unitCost": 1000,
+          "unitCost": 8400,
+          "period": "annual",
+          "monthlyCost": 700,
+          "notes": "",
+          "behavior": "fixed"
+        },
+        {
+          "id": "item-101",
+          "name": "Elastic mgmt",
+          "quantity": 1,
+          "unitCost": 50000,
+          "period": "annual",
+          "monthlyCost": 4166.666666666667,
+          "notes": "",
+          "behavior": "fixed"
+        },
+        {
+          "id": "item-102",
+          "name": "Misc- Capital H/W Investment",
+          "quantity": 812,
+          "unitCost": 238,
           "period": "monthly",
-          "monthlyCost": 1000,
-          "notes": "Contingency and miscellaneous expenses"
+          "monthlyCost": 193256,
+          "notes": "",
+          "behavior": "fixed"
+        },
+        {
+          "id": "item-103",
+          "name": "AWS SSM (c1)+c1 services",
+          "quantity": 1,
+          "unitCost": 35000,
+          "period": "monthly",
+          "monthlyCost": 35000,
+          "notes": "",
+          "behavior": "fixed"
+        }
+      ]
+    },
+    {
+      "id": "cat-100",
+      "label": "Control Plane",
+      "icon": "MoreHorizontal",
+      "items": [
+        {
+          "id": "item-101",
+          "name": "AWS Resource Cost",
+          "quantity": 1,
+          "unitCost": 366096,
+          "period": "annual",
+          "monthlyCost": 30508,
+          "notes": "",
+          "behavior": "fixed"
         }
       ]
     }
   ],
-  "appCount": 1000000,
-  "annualGrowthRate": 15,
+  "appCount": 900000,
+  "annualGrowthRate": 5,
   "projectionYears": 5
 }
