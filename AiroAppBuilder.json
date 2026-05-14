@@ -8,19 +8,19 @@
         {
           "id": "openstack-vm",
           "name": "c16.r128.d256 (p3)",
-          "quantity": 4402,
+          "quantity": 1,
           "unitCost": 209.91,
           "period": "annual",
-          "monthlyCost": 77001.985,
+          "monthlyCost": 17.4925,
           "notes": "50 VMs @ $150/month each"
         },
         {
           "id": "aws-ec2",
           "name": "c16.r128.d256 (sxb1)",
-          "quantity": 1170,
+          "quantity": 1,
           "unitCost": 163.59,
           "period": "annual",
-          "monthlyCost": 15950.025000000001,
+          "monthlyCost": 13.6325,
           "notes": "EC2 instances for scalable workloads"
         }
       ]
@@ -33,19 +33,19 @@
         {
           "id": "mysql-vm",
           "name": "c8.r24.d250(p3)",
-          "quantity": 1752,
+          "quantity": 1,
           "unitCost": 63.66,
           "period": "annual",
-          "monthlyCost": 9294.359999999999,
+          "monthlyCost": 5.305,
           "notes": "MySQL/PostgreSQL instances"
         },
         {
           "id": "item-103",
           "name": "c8.r24.d250(sxb1)",
-          "quantity": 400,
+          "quantity": 1,
           "unitCost": 54.94,
           "period": "annual",
-          "monthlyCost": 1831.3333333333333,
+          "monthlyCost": 4.578333333333333,
           "notes": ""
         }
       ]
@@ -57,16 +57,16 @@
       "items": [
         {
           "id": "item-100",
-          "name": "ceph(MWP Total Deployed Query)",
-          "quantity": 11178,
+          "name": "ceph(Airo App Builder Total Deployed Query)",
+          "quantity": 1,
           "unitCost": 69.02,
           "period": "annual",
-          "monthlyCost": 64292.13,
+          "monthlyCost": 5.751666666666666,
           "notes": ""
         },
         {
           "id": "item-102",
-          "name": "Daily Backup for mwp site ",
+          "name": "Daily Backup for airo site ",
           "quantity": 1,
           "unitCost": 864,
           "period": "daily",
@@ -85,9 +85,9 @@
           "id": "item-101",
           "name": "cloudflare",
           "quantity": 1,
-          "unitCost": 2158212,
+          "unitCost": 0,
           "period": "annual",
-          "monthlyCost": 179851,
+          "monthlyCost": 0,
           "notes": ""
         }
       ]
@@ -105,16 +105,6 @@
           "period": "monthly",
           "monthlyCost": 0,
           "notes": ""
-        },
-        {
-          "id": "item-103",
-          "name": "object cache pro",
-          "quantity": 1,
-          "unitCost": 60000,
-          "period": "annual",
-          "monthlyCost": 5000,
-          "notes": "",
-          "behavior": "fixed"
         }
       ]
     },
@@ -145,9 +135,9 @@
           "id": "item-103",
           "name": "Control Plane HR Opex",
           "quantity": 1,
-          "unitCost": 540000,
+          "unitCost": 0,
           "period": "annual",
-          "monthlyCost": 45000,
+          "monthlyCost": 0,
           "notes": "",
           "behavior": "fixed"
         },
@@ -155,9 +145,9 @@
           "id": "item-102",
           "name": "Data Plane HR Opex",
           "quantity": 1,
-          "unitCost": 700000,
+          "unitCost": 0,
           "period": "annual",
-          "monthlyCost": 58333.333333333336,
+          "monthlyCost": 0,
           "notes": "",
           "behavior": "fixed"
         }
@@ -219,16 +209,33 @@
           "id": "item-101",
           "name": "AWS Resource Cost",
           "quantity": 1,
-          "unitCost": 366096,
+          "unitCost": 0,
           "period": "annual",
-          "monthlyCost": 30508,
+          "monthlyCost": 0,
+          "notes": "",
+          "behavior": "fixed"
+        }
+      ]
+    },
+    {
+      "id": "cat-101",
+      "label": "AI Spend",
+      "icon": "MoreHorizontal",
+      "items": [
+        {
+          "id": "item-102",
+          "name": "LLM Inferencing cost ",
+          "quantity": 1,
+          "unitCost": 7000,
+          "period": "daily",
+          "monthlyCost": 210000,
           "notes": "",
           "behavior": "fixed"
         }
       ]
     }
   ],
-  "appCount": 900000,
+  "appCount": 100000,
   "annualGrowthRate": 5,
   "projectionYears": 5
 }
