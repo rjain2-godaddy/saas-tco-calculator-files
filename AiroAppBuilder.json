@@ -68,9 +68,9 @@
           "id": "item-102",
           "name": "Daily Backup for airo site ",
           "quantity": 1,
-          "unitCost": 864,
+          "unitCost": 66,
           "period": "daily",
-          "monthlyCost": 25920,
+          "monthlyCost": 1980,
           "notes": "",
           "behavior": "fixed"
         }
@@ -88,22 +88,6 @@
           "unitCost": 7535,
           "period": "annual",
           "monthlyCost": 627.9166666666666,
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "id": "licensing",
-      "label": "Licensing",
-      "icon": "FileKey",
-      "items": [
-        {
-          "id": "item-102",
-          "name": "cloudlinux/zend",
-          "quantity": 1,
-          "unitCost": 0,
-          "period": "monthly",
-          "monthlyCost": 0,
           "notes": ""
         }
       ]
@@ -172,9 +156,9 @@
           "id": "item-100",
           "name": "LGTM c1",
           "quantity": 1,
-          "unitCost": 8400,
+          "unitCost": 700,
           "period": "annual",
-          "monthlyCost": 700,
+          "monthlyCost": 58.333333333333336,
           "notes": "",
           "behavior": "fixed"
         },
@@ -182,9 +166,9 @@
           "id": "item-101",
           "name": "Elastic mgmt",
           "quantity": 1,
-          "unitCost": 50000,
+          "unitCost": 5000,
           "period": "annual",
-          "monthlyCost": 4166.666666666667,
+          "monthlyCost": 416.6666666666667,
           "notes": "",
           "behavior": "fixed"
         },
@@ -202,19 +186,9 @@
           "id": "item-103",
           "name": "AWS SSM (c1)+c1 services",
           "quantity": 1,
-          "unitCost": 35000,
+          "unitCost": 3500,
           "period": "monthly",
-          "monthlyCost": 35000,
-          "notes": "",
-          "behavior": "fixed"
-        },
-        {
-          "id": "item-104",
-          "name": "Marketing campaigns",
-          "quantity": 1,
-          "unitCost": 0,
-          "period": "monthly",
-          "monthlyCost": 0,
+          "monthlyCost": 3500,
           "notes": "",
           "behavior": "fixed"
         }
@@ -227,11 +201,11 @@
       "items": [
         {
           "id": "item-101",
-          "name": "AWS Resource Cost",
+          "name": "Control Plane AWS Resource Cost",
           "quantity": 1,
           "unitCost": 2570,
-          "period": "annual",
-          "monthlyCost": 214.16666666666666,
+          "period": "monthly",
+          "monthlyCost": 2570,
           "notes": "",
           "behavior": "fixed"
         }
@@ -244,11 +218,11 @@
       "items": [
         {
           "id": "item-102",
-          "name": "LLM Inferencing cost ",
+          "name": "Airo Builder AWS + GoCaas cost ",
           "quantity": 1,
-          "unitCost": 8282,
-          "period": "daily",
-          "monthlyCost": 248460,
+          "unitCost": 230000,
+          "period": "monthly",
+          "monthlyCost": 230000,
           "notes": "",
           "behavior": "fixed"
         }
