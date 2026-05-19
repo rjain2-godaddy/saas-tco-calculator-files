@@ -85,9 +85,9 @@
           "id": "item-101",
           "name": "cloudflare",
           "quantity": 1,
-          "unitCost": 0,
+          "unitCost": 7535,
           "period": "annual",
-          "monthlyCost": 0,
+          "monthlyCost": 627.9166666666666,
           "notes": ""
         }
       ]
@@ -115,16 +115,16 @@
       "items": [
         {
           "id": "staff",
-          "name": "Staff / FTE Cost",
+          "name": "Control Plane HR Opex",
           "quantity": 1,
-          "unitCost": 0,
-          "period": "monthly",
-          "monthlyCost": 0,
+          "unitCost": 236899.99,
+          "period": "annual",
+          "monthlyCost": 19741.665833333333,
           "notes": "5 FTE DevOps/SRE engineers"
         },
         {
           "id": "security",
-          "name": "Security Tools",
+          "name": "Data Plane HR Opex",
           "quantity": 1,
           "unitCost": 0,
           "period": "monthly",
@@ -133,7 +133,7 @@
         },
         {
           "id": "item-103",
-          "name": "Control Plane HR Opex",
+          "name": "Operations HR Opex",
           "quantity": 1,
           "unitCost": 0,
           "period": "annual",
@@ -143,10 +143,20 @@
         },
         {
           "id": "item-102",
-          "name": "Data Plane HR Opex",
+          "name": "Security Tools",
           "quantity": 1,
           "unitCost": 0,
           "period": "annual",
+          "monthlyCost": 0,
+          "notes": "",
+          "behavior": "fixed"
+        },
+        {
+          "id": "item-100",
+          "name": "Other Staff / FTE Cost",
+          "quantity": 1,
+          "unitCost": 0,
+          "period": "monthly",
           "monthlyCost": 0,
           "notes": "",
           "behavior": "fixed"
@@ -197,6 +207,16 @@
           "monthlyCost": 35000,
           "notes": "",
           "behavior": "fixed"
+        },
+        {
+          "id": "item-104",
+          "name": "Marketing campaigns",
+          "quantity": 1,
+          "unitCost": 0,
+          "period": "monthly",
+          "monthlyCost": 0,
+          "notes": "",
+          "behavior": "fixed"
         }
       ]
     },
@@ -209,9 +229,9 @@
           "id": "item-101",
           "name": "AWS Resource Cost",
           "quantity": 1,
-          "unitCost": 0,
+          "unitCost": 2570,
           "period": "annual",
-          "monthlyCost": 0,
+          "monthlyCost": 214.16666666666666,
           "notes": "",
           "behavior": "fixed"
         }
@@ -226,16 +246,16 @@
           "id": "item-102",
           "name": "LLM Inferencing cost ",
           "quantity": 1,
-          "unitCost": 7000,
+          "unitCost": 8282,
           "period": "daily",
-          "monthlyCost": 210000,
+          "monthlyCost": 248460,
           "notes": "",
           "behavior": "fixed"
         }
       ]
     }
   ],
-  "appCount": 100000,
-  "annualGrowthRate": 5,
+  "appCount": 65607,
+  "annualGrowthRate": 12.68,
   "projectionYears": 5
 }
