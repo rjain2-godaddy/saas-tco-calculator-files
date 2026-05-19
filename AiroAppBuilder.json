@@ -8,19 +8,19 @@
         {
           "id": "openstack-vm",
           "name": "c16.r128.d256 (p3)",
-          "quantity": 1,
+          "quantity": 860,
           "unitCost": 209.91,
           "period": "annual",
-          "monthlyCost": 17.4925,
+          "monthlyCost": 15043.550000000001,
           "notes": "50 VMs @ $150/month each"
         },
         {
           "id": "aws-ec2",
           "name": "c16.r128.d256 (sxb1)",
-          "quantity": 1,
+          "quantity": 240,
           "unitCost": 163.59,
           "period": "annual",
-          "monthlyCost": 13.6325,
+          "monthlyCost": 3271.7999999999997,
           "notes": "EC2 instances for scalable workloads"
         }
       ]
@@ -33,19 +33,19 @@
         {
           "id": "mysql-vm",
           "name": "c8.r24.d250(p3)",
-          "quantity": 1,
+          "quantity": 122,
           "unitCost": 63.66,
           "period": "annual",
-          "monthlyCost": 5.305,
+          "monthlyCost": 647.2099999999999,
           "notes": "MySQL/PostgreSQL instances"
         },
         {
           "id": "item-103",
           "name": "c8.r24.d250(sxb1)",
-          "quantity": 1,
+          "quantity": 32,
           "unitCost": 54.94,
           "period": "annual",
-          "monthlyCost": 4.578333333333333,
+          "monthlyCost": 146.50666666666666,
           "notes": ""
         }
       ]
