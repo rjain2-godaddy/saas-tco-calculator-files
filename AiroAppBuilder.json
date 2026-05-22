@@ -191,6 +191,16 @@
           "monthlyCost": 3500,
           "notes": "",
           "behavior": "fixed"
+        },
+        {
+          "id": "item-104",
+          "name": "Database - Capital H/w investment ",
+          "quantity": 1,
+          "unitCost": 84943,
+          "period": "monthly",
+          "monthlyCost": 84943,
+          "notes": "",
+          "behavior": "fixed"
         }
       ]
     },
