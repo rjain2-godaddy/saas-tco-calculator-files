@@ -58,10 +58,10 @@
         {
           "id": "item-100",
           "name": "ceph(Airo App Builder Total Deployed Query)",
-          "quantity": 1,
-          "unitCost": 69.02,
+          "quantity": 508,
+          "unitCost": 63.57,
           "period": "annual",
-          "monthlyCost": 5.751666666666666,
+          "monthlyCost": 2691.13,
           "notes": ""
         },
         {
