@@ -110,9 +110,9 @@
           "id": "security",
           "name": "Data Plane HR Opex",
           "quantity": 1,
-          "unitCost": 0,
-          "period": "monthly",
-          "monthlyCost": 0,
+          "unitCost": 100000,
+          "period": "annual",
+          "monthlyCost": 8333.333333333334,
           "notes": "Security scanning, SIEM, compliance tools"
         },
         {
