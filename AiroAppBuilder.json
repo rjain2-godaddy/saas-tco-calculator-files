@@ -177,8 +177,8 @@
           "name": "Compute- Capital H/W Investment",
           "quantity": 1,
           "unitCost": 600655,
-          "period": "monthly",
-          "monthlyCost": 600655,
+          "period": "annual",
+          "monthlyCost": 50054.583333333336,
           "notes": "",
           "behavior": "fixed"
         },
@@ -197,8 +197,8 @@
           "name": "Database - Capital H/w investment ",
           "quantity": 1,
           "unitCost": 84943,
-          "period": "monthly",
-          "monthlyCost": 84943,
+          "period": "annual",
+          "monthlyCost": 7078.583333333333,
           "notes": "",
           "behavior": "fixed"
         }
