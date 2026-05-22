@@ -174,11 +174,11 @@
         },
         {
           "id": "item-102",
-          "name": "Misc- Capital H/W Investment",
-          "quantity": 812,
-          "unitCost": 238,
+          "name": "Compute- Capital H/W Investment",
+          "quantity": 1,
+          "unitCost": 600655,
           "period": "monthly",
-          "monthlyCost": 193256,
+          "monthlyCost": 600655,
           "notes": "",
           "behavior": "fixed"
         },
